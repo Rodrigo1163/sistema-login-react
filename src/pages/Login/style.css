@@ -1,0 +1,30 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 10px;
+    background-color: #201f1f;
+    border-radius: 12px;
+}
+
+input, button{
+    min-height: 2em;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    gap: 10px;
+}
+h1, p{
+    color: white;
+}
+a{
+    color: white;
+}
